@@ -28,9 +28,9 @@ const App = () => {
     // </NavigationContainer>
       <NavigationContainer>
           <MainStack.Navigator headerMode="none">
-              {/*<MainStack.Screen*/}
-              {/*    name="IntrodusScreen"*/}
-              {/*    component={IntrodusScreen}></MainStack.Screen>*/}
+              <MainStack.Screen
+                  name="IntrodusScreen"
+                  component={IntrodusScreen}></MainStack.Screen>
               <MainStack.Screen
                   name="MainScreen"
                   component={MainScreen}></MainStack.Screen>

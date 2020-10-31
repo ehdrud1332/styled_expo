@@ -6,7 +6,7 @@ import {SafeAreaView} from 'react-native-safe-area-context';
 import themes from '../config/themes';
 
 import RecipePopular from "../components/RecipePopular";
-import TapRecipe from "../components/TapRecipe";
+import TabRecipe from "../components/TabRecipe";
 
 const MainScreen = () => {
 
@@ -30,7 +30,7 @@ const MainScreen = () => {
                 </View>
 
                 <RecipePopular onPress={onPressItem}/>
-                <TapRecipe onPress={onPressItem}/>
+                <TabRecipe onPress={onPressItem} />
             </ScrollView>
         </SafeAreaView>
     );
