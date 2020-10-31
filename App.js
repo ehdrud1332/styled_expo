@@ -3,7 +3,7 @@ import {NavigationContainer} from '@react-navigation/native';
 import {createStackNavigator} from '@react-navigation/stack';
 
 import IntrodusScreen from './screen/IntrodusScreen';
-import MainScreen from './screen/MainSreen';
+import MainScreen from './screen/MainScreen';
 import DetailScreen from './screen/DetailScreen'
 
 const MainStack = createStackNavigator();
@@ -28,9 +28,9 @@ const App = () => {
     // </NavigationContainer>
       <NavigationContainer>
           <MainStack.Navigator headerMode="none">
-              <MainStack.Screen
-                  name="IntrodusScreen"
-                  component={IntrodusScreen}></MainStack.Screen>
+              {/*<MainStack.Screen*/}
+              {/*    name="IntrodusScreen"*/}
+              {/*    component={IntrodusScreen}></MainStack.Screen>*/}
               <MainStack.Screen
                   name="MainScreen"
                   component={MainScreen}></MainStack.Screen>
